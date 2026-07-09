@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/falloffice-mcp",
+  "version": "1.0.0",
+  "description": "falloffice MCP server · stdio wrapper around @ai-native-solutions/falloffice-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "falloffice-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["falloffice", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/falloffice-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/falloffice-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
